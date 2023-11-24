@@ -1,4 +1,5 @@
 /* Estilos básicos para o portfólio */
+@import url('http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext');
 
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -81,6 +82,6 @@ body {
  
  /* Adicione esses estilos para o tema escuro */
  .dark-theme {
-     background-color: #9c9ca0;
+     background-color: #3737ff;
      color: #f7f7f7;
  }
