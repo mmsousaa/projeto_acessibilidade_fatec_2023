@@ -1,0 +1,86 @@
+/* Estilos básicos para o portfólio */
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     margin: 0px;
+     padding: 5px;
+ }
+ 
+ .container {
+     max-width: 800px;
+     margin: 0 auto;
+     padding: 40px;
+ }
+ 
+ header {
+     text-align: center;
+     margin-bottom: 25px;
+ }
+ 
+ header img {
+     width: 200px;
+     height: 200px;
+     border-radius: 100%;
+     margin-top: 20px;
+ }
+ 
+ h1 {
+     margin-bottom: 25px;
+ }
+ 
+ .info p {
+     margin-bottom: 30px;
+     height: 10px;
+     
+ }
+ 
+ 
+ .academico {
+     margin-top: 45px;
+ }
+ 
+ #social-links{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 16px;
+     height: 40px;
+ 
+ 
+ }
+ 
+ #social-links a {
+     display: inline-flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 40px;
+     width: 40px;
+     height: 40px;
+     margin: 0 10px;
+     border-radius: 50%; /* Para criar ícones circulares */
+     background-color: #333; /* Cor de fundo padrão */
+     color: white; /* Cor do ícone */
+     text-decoration: none; /* Remove o sublinhado dos links */
+     transition: background-color 0.3s ease, color 0.3s ease; /* Efeito de transição ao passar o mouse */
+   }
+ 
+   #social-links a:hover {
+     background-color: #E1306C; /* Mudança de cor ao passar o mouse */
+   }
+ 
+ 
+ 
+ /* Estilos para mobile */
+ @media (max-width: 600px) {
+     header img {
+         width: 150px;
+         height: 100px;
+     }
+ }
+ 
+ 
+ /* Adicione esses estilos para o tema escuro */
+ .dark-theme {
+     background-color: #3737ff;
+     color: #f7f7f7;
+ }
